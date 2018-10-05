@@ -7,7 +7,7 @@ storiesOf('TodoItem', module)
   .add('not completed', () => {
     const todo = {
       id: 'the-id',
-      text: 'Hello Todo',
+      text: 'Hello Todo 123123123',
       completed: false
     };
 
@@ -16,7 +16,7 @@ storiesOf('TodoItem', module)
   .add('completed', () => {
     const todo = {
       id: 'the-id',
-      text: 'Hello Todo',
+      text: 'Hello Todo 4124 124 124 ',
       completed: true
     };
 
