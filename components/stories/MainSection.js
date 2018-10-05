@@ -6,24 +6,24 @@ import { action } from '@storybook/addon-actions';
 storiesOf('MainSection', module)
   .add('all active', () => {
     const todoItems = [
-      { id: 'one', text: 'Item One 123 123', completed: false },
-      { id: 'two', text: 'Item Two1 123 1', completed: false },
+      { id: 'one', text: 'Item One', completed: false },
+      { id: 'two', text: 'Item Two', completed: false },
     ];
 
     return getMainSection(todoItems);
   })
   .add('some completed', () => {
     const todoItems = [
-      { id: 'one', text: 'Item One 123123 1', completed: false },
-      { id: 'two', text: 'Item Two 123123', completed: true },
+      { id: 'one', text: 'Item One', completed: false },
+      { id: 'two', text: 'Item Two', completed: true },
     ];
 
     return getMainSection(todoItems);
   })
   .add('all completed', () => {
     const todoItems = [
-      { id: 'one', text: 'Item One 123 123 ', completed: true },
-      { id: 'two', text: 'Item Two 123 ', completed: true },
+      { id: 'one', text: 'Item One', completed: true },
+      { id: 'two', text: 'Item Two', completed: true },
     ];
 
     return getMainSection(todoItems);
