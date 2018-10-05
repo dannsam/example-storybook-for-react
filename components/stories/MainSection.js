@@ -14,8 +14,8 @@ storiesOf('MainSection', module)
   })
   .add('some completed', () => {
     const todoItems = [
-      { id: 'one', text: 'Item One 123123 1', completed: false },
-      { id: 'two', text: 'Item Two 123123', completed: true },
+      { id: 'one', text: 'Item One 333', completed: false },
+      { id: 'two', text: 'Item Two', completed: true },
     ];
 
     return getMainSection(todoItems);
